@@ -1,4 +1,6 @@
 services:
+    SampleBundle\Service\Wisdom:
+      class: SampleBundle\Service\Wisdom
 
     SampleBundle\Service\HelloService:
-        class: 'SampleBundle\Service\HelloService'
+       class: SampleBundle\Service\HelloService
