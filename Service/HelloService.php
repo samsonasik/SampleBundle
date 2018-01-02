@@ -1,6 +1,6 @@
 <?php
 
-namespace SampleBundle\Service;
+namespace Samsonasik\SampleBundle\Service;
 
 class HelloService
 {
