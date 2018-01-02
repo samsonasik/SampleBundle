@@ -1,0 +1,4 @@
+services:
+
+    SampleBundle\Service\HelloService:
+        class: 'SampleBundle\Service\HelloService'
