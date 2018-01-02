@@ -4,3 +4,5 @@ services:
 
     SampleBundle\Service\HelloService:
        class: SampleBundle\Service\HelloService
+       arguments:
+          $wisdom: '@SampleBundle\Service\Wisdom'

@@ -3,6 +3,7 @@
 namespace SampleBundle;
 
 use SampleBundle\DependencyInjection\SampleBundleExtension;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class SampleBundle extends Bundle
