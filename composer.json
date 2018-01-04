@@ -3,6 +3,7 @@
     "description": "sample bundle to work with sf4",
     "type": "library",
     "require": {
+        "sensio/generator-bundle": "^3.1",
         "symfony/dependency-injection": "^4.0",
         "symfony/http-kernel": "^4.0",
         "symfony/config": "^4.0"
@@ -20,5 +21,8 @@
         }
     ],
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "scripts": {
+        "post-install-cmd": "Samsonasik\\SampleBundle\\Installer::addBundle"
+    }
 }
