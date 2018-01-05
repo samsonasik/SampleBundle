@@ -1,6 +1,6 @@
 <?php
 
-namespace Samsonasik\SampleBundle\DependencyInjection;
+namespace Samsonasik\Bundle\SampleBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

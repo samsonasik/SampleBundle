@@ -1,6 +1,6 @@
 <?php
 
-namespace Samsonasik\SampleBundle;
+namespace Samsonasik\Bundle\SampleBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
