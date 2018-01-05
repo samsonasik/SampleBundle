@@ -13,6 +13,6 @@ class HelloService
 
     public function world()
     {
-        echo "Hello, World!, {$this->wisdom}";
+        return "Hello, World!, {$this->wisdom}";
     }
 }
