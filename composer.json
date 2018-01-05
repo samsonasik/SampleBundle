@@ -20,8 +20,5 @@
         }
     ],
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "scripts": {
-        "post-install-cmd": "Samsonasik\\SampleBundle\\Installer::addBundle"
-    }
+    "prefer-stable": true
 }
