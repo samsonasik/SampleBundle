@@ -1,8 +1,8 @@
 services:
-    SampleBundle\Service\Wisdom:
-      class: SampleBundle\Service\Wisdom
+    Samsonasik\Bundle\SampleBundle\Service\Wisdom:
+      class: Samsonasik\Bundle\SampleBundle\Service\Wisdom
 
-    SampleBundle\Service\HelloService:
-       class: SampleBundle\Service\HelloService
+    Samsonasik\Bundle\SampleBundle\Service\HelloService:
+       class: Samsonasik\Bundle\SampleBundle\Service\HelloService
        arguments:
-          $wisdom: '@SampleBundle\Service\Wisdom'
+          $wisdom: '@Samsonasik\Bundle\SampleBundle\Service\Wisdom'
